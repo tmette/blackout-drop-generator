@@ -8,20 +8,18 @@ var appShellFiles = [
     '/assets/images/icons/icon-96x96.png',
     '/assets/images/icons/icon-128x128.png',
     '/assets/images/icons/icon-144x144.png',
-    '/assets/images/icons/icon-152.152.png',
-    '/assets/images/icons/icon-192.192.png',
+    '/assets/images/icons/icon-152x152.png',
+    '/assets/images/icons/icon-192x192.png',
     '/assets/images/icons/icon-384x384.png',
     '/assets/images/icons/icon-512x512.png'
 ];
-var contentToCache = appShellFiles;
-
 
 self.addEventListener('install', function(e) {
     console.log('[Service Worker] Install');
     e.waitUntil(
         caches.open(cacheName).then(function(cache) {
             console.log('[Service Worker] Caching all: app shell and content');
-            return cache.addAll(contentToCache);
+            return cache.addAll(appShellFiles);
         })
     );
 });

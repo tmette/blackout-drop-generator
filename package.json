@@ -1,0 +1,23 @@
+{
+  "name": "bops4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmette/more-than-just-hot-drops.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmette/more-than-just-hot-drops/issues"
+  },
+  "homepage": "https://github.com/tmette/more-than-just-hot-drops#readme"
+}
