@@ -5,8 +5,8 @@ const cssnano = require('gulp-cssnano');
 const browserSync = require('browser-sync');
 
 gulp.task('sass', () => {
-    return gulp.src(['assets/main.scss', 'assets/scss/**/*.scss'])
-        .pipe(concat('main.scss'))
+    return gulp.src(['assets/scss/index.scss', 'assets/scss/**/*.scss'])
+        .pipe(concat('index.scss'))
         .pipe(sass())
         .pipe(cssnano())
         .pipe(gulp.dest('assets/css'));
@@ -23,5 +23,5 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('watch', () => {
-    gulp.watch(['main.scss', 'assets/scss/**/*.scss'], ['sass']);
+    gulp.watch(['index.scss', 'assets/scss/**/*.scss'], ['sass']);
 });

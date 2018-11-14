@@ -1,9 +1,9 @@
 {
   "name": "Drop Generator",
-  "short_name": "drop_gen",
+  "short_name": "CoD Drops",
   "theme_color": "#db3a00",
   "background_color": "#e0e0e0",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
   "Scope": "./",
   "start_url": "./index.html",

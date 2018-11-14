@@ -1,0 +1,15 @@
+header {
+	background-color: $primary;
+	width: 100%;
+	padding: 10px 15px;
+	color: $white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		font-size: 22px;
+		text-align: center;
+		margin: 0;
+	}
+}
