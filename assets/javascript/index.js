@@ -3,7 +3,6 @@ var locationName = document.querySelector(".location-name");
 
 function getLocation() {
 	var locationArray = [
-		"Anvil",
 		"Array",
 		"Asylum",
 		"Boxing Gym",
